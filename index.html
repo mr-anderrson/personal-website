@@ -111,8 +111,42 @@
             display: grid; 
             font-size: 14px;
             padding: 10px;
-
         }
+
+        @media all and (max-width: 650px) {
+            h1.owner {
+                font-size: 1.6rem;
+                top: 15px;
+            }
+
+            table.nav_list {
+                width: 90%;
+                top: 20px;
+                height: 30px;
+                font-size: 1rem;
+            }
+
+            div.basicinfo {
+                flex-direction: column;
+                width: 90%;
+                height: auto;
+                padding: 10px;
+            }
+
+            div.cell1, div.introduction {
+                width: 100%;
+            }
+
+            div.photo img {
+                width: 70%;
+            }
+
+            div.introduction {
+                font-size: 0.9rem;
+            }
+        }
+
+
 
 
     </style>
