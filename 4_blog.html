@@ -31,6 +31,7 @@
             width: 25%;
             height: 40px;
             background-color: rgb(128, 0, 0);
+            font-size: 1.2rem;
         }
 
         th a{
@@ -43,13 +44,29 @@
             width: 25%;
             height: 40px;
             background-color: rgb(19, 41, 75);
+            font-size: 1.2rem;
         }
     
         table.nav_list th:hover {transform: scale(1.05);}
 
-        div.year {
+        div.disclaimer {
             position: relative;
             top: 60px;
+            height: auto;
+            width: 60%;
+            background-color: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            text-align: justify;
+            font-size: 0.95rem;
+        }
+        
+        div.year {
+            position: relative;
+            top: 90px;
             height: 5vh;
             width: 60%;
             background-color: cornsilk;
@@ -62,15 +79,40 @@
 
         div.article {
             position: relative;
-            top: 60px;
+            top: 100px;
             height: 5vh;
-            width: 47.7%;
+            width: 60%;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
             margin: auto;
         }
+
+        div.tareekh {
+            width: 13%;
+            height: 100%;
+            background-color: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        div.title {
+            width: 87%;
+            height: 100%;
+            background-color: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+
+        div.title a{
+            color: black;
+        } 
 
         @media (max-width: 650px) {
 
@@ -85,6 +127,12 @@
                 height: 30px;
                 font-size: 1rem;
 
+            }
+
+            div.disclaimer {
+                width: 90%;
+                height: auto;
+                font-size: 0.9rem;
             }
 
             div.year {
@@ -121,21 +169,33 @@
         </tr>
     </table>
 
-    <div>
-
-        <div class="year">
-            
-            <h2>2025</h2>
-    
-        </div>
-
-        <div class="article">
-            
-            <p>Coming soon</p>
-    
-        </div>
+    <div class="disclaimer">
+        
+        <p>I started this blog to organize and articulate my thoughts on various topics I’ve been thinking about for years—while doing household chores, reading books, riding my bike, cooking, attending lectures, and many other routine activities. Writing helps me crystallize my thoughts and connect the dots between my personal experiences, conversations, readings, and observations. I don’t see this as a platform to assert unshakable opinions, but rather as a space to think out loud and refine my understanding. If you disagree with anything I’ve written or believe I’ve overlooked an important point, I’d love to hear from you. Please feel free to write to me at pratikwadmare@gmail.com. I’ll surely reconsider my views if your arguments help me better understand the world.</p>
 
     </div>
+
+
+
+    <div class="year">
+        
+        <h2>2025</h2>
+
+    </div>
+
+    <div class="article">
+        <div class="tareekh">
+            <p> May 2025 </p>
+        </div>
+        
+        <div class="title">
+            <a href="index.html">The Role of Technology in School Education</a>
+        </div>
+        
+
+    </div>
+
+
 
 
     
